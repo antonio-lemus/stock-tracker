@@ -16,17 +16,17 @@ if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
 
 # Dynamic Targets (Percent of 5-Day Average)
 WATCHLIST = {
-    "QQQM":  {"buy_pct": 1.01, "sell_pct": 1.01},
-    "VOO":   {"buy_pct": 0.99, "sell_pct": 1.01},
+    "QQQM":  {"buy_pct": 0.98, "sell_pct": 1.01},
+    "VOO":   {"buy_pct": 0.98, "sell_pct": 1.01},
     "LMT":   {"buy_pct": 0.96, "sell_pct": 1.03},
     "CRWD":  {"buy_pct": 0.95, "sell_pct": 1.04},
     "CVX":   {"buy_pct": 0.96, "sell_pct": 1.03},
-    "LLY":   {"buy_pct": 0.96, "sell_pct": 1.03},
-    "UBER":  {"buy_pct": 0.95, "sell_pct": 1.04},
-    "TSLA":  {"buy_pct": 0.95, "sell_pct": 1.4},
+    "LLY":   {"buy_pct": 0.94, "sell_pct": 1.03},
+    "UBER":  {"buy_pct": 0.94, "sell_pct": 1.04},
+    "TSLA":  {"buy_pct": 0.94, "sell_pct": 1.4},
     "NVDA":  {"buy_pct": 0.95, "sell_pct": 1.03},
-    "AMZN":  {"buy_pct": 0.98, "sell_pct": 1.03},
-    "GOOGL": {"buy_pct": 0.98, "sell_pct": 1.03}
+    "AMZN":  {"buy_pct": 0.96, "sell_pct": 1.03},
+    "GOOGL": {"buy_pct": 0.96, "sell_pct": 1.03}
 }
 
 def send_telegram_message(message):
